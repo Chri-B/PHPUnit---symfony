@@ -6,8 +6,6 @@ use App\Entity\Dinosaur;
 use App\Enum\HealthStatus;
 use PHPUnit\Framework\TestCase;
 
-use function PHPUnit\Framework\assertTrue;
-
 class DinosaurTest extends TestCase
 {
     public function testItCanGetAndSetData(): void
